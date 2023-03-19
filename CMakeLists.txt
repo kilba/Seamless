@@ -7,7 +7,12 @@ add_executable(${PROJECT_NAME}
     src/errors.c
     src/net/net.c
     src/net/conn.c
+    src/gui/functionalities.c
     src/auth/auth.c
+
+    src/net/sha1.c
+    src/net/base64.c
+    src/net/qrcodegen.c
 )
 
 target_include_directories(${PROJECT_NAME}
